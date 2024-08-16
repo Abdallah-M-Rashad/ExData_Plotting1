@@ -25,7 +25,7 @@ end_date <- strptime("3/2/2007 00:00:00","%e/%m/%Y %H:%M:%S")
 
 # visualization
 
-par(mfrow = c(2,2),mar = c(3,2,2,1),oma = c(2,2,0,0))
+par(mfrow = c(2,2),mar = c(4,3,3,1),oma = c(1,1,0,0))
 
 plot(y = as.numeric(U_C4M1P2$Global_active_power),
      x= time_date, col="black",
